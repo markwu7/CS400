@@ -1,0 +1,39 @@
+p3b CONCLUSIONS.TXT
+
+Complete p3b and answer the following questions using results of running JDK Mission Control to justify your conclusions..
+
+1) What can you tell about the performance of your hash table implementation compared to Java's tree map? 
+Explain why (or when) your hash table is better or worse than Java's Tree Map.
+
+Compared to my HashTable to the Tree map, 
+the complexity of HashTable is O(1) for the method add, get and the resize method;
+and Tree map typically with  O(logN) complexity. 
+Hence, my hash table performs better than Java Tree map.
+But,HashTable may take more memory space because there will be a lot of unused buckets after we initialize it. 
+So,HashTable is faster than Java Tree Map, but Java Tree Map should cost less space than hash table.(image 002)
+
+
+2) What did you observe in jdk mission control to come to the conclusion above?
+
+My observation for JDK Mission Control is to observe the count.
+Here, the insert method for my HashTable with 1071 counts;
+and the insert method for Java Tree Map with 1280 counts.
+However, it also showed that Java Tree Map spent higher number of CPU cycles of put method.(image 001)
+Hence,it support to my answer 1, HashTable is faster than Java Tree Map.
+
+3) SCREENSHOT_001.PNG NOTES: Briefly describe what this image 001 shows
+The "SCREENSHOT_001.PNG" I screenshot is for the count of insert method.
+The insert method for my HashTable with 1071 counts;
+The insert method for Java Tree Map with 1280 counts.
+Above information support my answer 2. And I also highlighted the insert/put,
+so you can check it easily.
+
+4) SCREENSHOT_002.PNG NOTES: Briefly describe what this image 002 shows
+The "SCREENSHOT_002.PNG" I screenshot is for the memory of the each insert method.
+The insert method for my HashTable with 345 MiB;
+The insert method for Java Tree Map with 329 MiB.
+Above information support my conclusion of my answer 1, which showed the HashTable occupied more space.
+And I also highlighted the insert/put,so you can check it easily.
+
+5) Describe other screenshots if you include them in your submission.
+N/A
