@@ -1,0 +1,53 @@
+Name: Mark Wu 
+wisc.edu mail address: hwu378@wisc.edu 
+CS 400 lexture number:001
+
+Calculate Effective Field Goal Percentage (EFG%)
+================================================
+
+Enter total field goal attempts (FGA): 90
+
+Enter total field goals MADE (FGM): 45
+
+Enter total 3-point field goals MADE (ThreePM): 15
+EFG%:58.333333333333336%
+Enter "y"or "q"; y for continue calculating, q for quiting.
+y
+
+Calculate Effective Field Goal Percentage (EFG%)
+================================================
+
+Enter total field goal attempts (FGA): 25
+
+Enter total field goals MADE (FGM): 12
+
+Enter total 3-point field goals MADE (ThreePM): 5
+EFG%:57.99999999999999%
+Please enter either "y" or "q"
+Enter "y"or "q"; y for continue calculating, q for quiting.
+sq
+Please enter either "y" or "q"
+Enter "y"or "q"; y for continue calculating, q for quiting.
+y
+
+Calculate Effective Field Goal Percentage (EFG%)
+================================================
+
+Enter total field goal attempts (FGA): 78
+
+Enter total field goals MADE (FGM): 38
+
+Enter total 3-point field goals MADE (ThreePM): 12
+EFG%:56.41025641025641%
+Please enter either "y" or "q"
+Enter "y"or "q"; y for continue calculating, q for quiting.
+q
+
+Calculate The NBA player in 2018~ 2019 Effective Field Goal Percentage (EFG%)
+--------------------------------------------------------------------------
+
+Enter file name from which to read player stats: input.txt
+
+Enter file name to write player EFG's: output.txt
+
+Output has been recorded in file: output.txt
